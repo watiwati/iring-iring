@@ -5,12 +5,23 @@
     </div>
 </div>
 <div class="container">
-    <table class="table table-striped">
+    <table>
         <tr>
-            <th scope="col" colspan="4">SD BALANCES</th>        
+            <th scope="col" colspan="5">SD BALANCES</th>        
+        </tr>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Action</th>
         </tr>
         <tr *ngFor = "let savings of sd">
             <td>{{savings.name}}</td>
+            <td>{{savings.email}}</td>
+            <td>{{savings.company}}</td>
+            <td>{{savings.role}}</td>
+            <td>Edit | Delete</td>
         </tr>
     </table>
 </div>

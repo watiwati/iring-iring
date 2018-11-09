@@ -34,8 +34,7 @@ function log(target, name, descriptor){
   ]
 })
 export class AppComponent {
-  //title = 'sd-balances';
-  sd = {}
+   sd = [];
 
   constructor(private mySavingsDeposit : SavingsDepositService){
 

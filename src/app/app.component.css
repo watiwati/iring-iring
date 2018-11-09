@@ -2,4 +2,9 @@ p{
     color:green;
     height: 30px;
 }
-
+th{
+    height: 10px;
+}
+td{
+    height: 10px;
+}
