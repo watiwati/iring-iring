@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+    <div class = "jumbotron" style="margin-top:10px;">
+           <h2>Sample Header</h2>      
+    </div>
+</div>
+<div class="container">
+    <table class="table table-striped">
+        <tr>
+            <th scope="col" colspan="4">SD BALANCES</th>        
+        </tr>
+        <tr *ngFor = "let savings of sd">
+            <td>{{savings.name}}</td>
+        </tr>
+    </table>
+</div>
