@@ -11,16 +11,16 @@
         </tr>
         <tr>
           <th>Name</th>
-          <th>Email</th>
-          <th>Company</th>
-          <th>Role</th>
+          <th>Branch</th>
+          <th>Level</th>
+          <th>Usermane</th>
           <th>Action</th>
         </tr>
         <tr *ngFor = "let savings of sd">
-            <td>{{savings.name}}</td>
-            <td>{{savings.email}}</td>
-            <td>{{savings.company}}</td>
-            <td>{{savings.role}}</td>
+            <td>{{savings.fullname}}</td>
+            <td>{{savings.branch}}</td>
+            <td>{{savings.level}}</td>
+            <td>{{savings.uname}}</td>
             <td>Edit | Delete</td>
         </tr>
     </table>

@@ -42,9 +42,9 @@ export class AppComponent {
 
   ngOnInit() {
    this.mySavingsDeposit.getData()
-    .subscribe((data:any)=>{
-      console.log("I got the data!", data);
-      this.sd = data.contacts;
+    .subscribe((Response:any)=>{
+      console.log("I got the data!", Response);
+      this.sd = Response.data;
       console.log(this.sd);
     });
   }
